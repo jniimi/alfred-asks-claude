@@ -6,6 +6,8 @@
 
 DeepL のショートカット翻訳のような体験を、LLM ベースでより柔軟に実現します。
 
+[![Download for Mac](https://img.shields.io/badge/Download_for_Mac-v0.1.0-blue?style=for-the-badge&logo=apple)](https://github.com/jniimi/alfred-asks-claude/releases/download/v0.1.0/Alfred.Asks.Claude.alfredworkflow)
+
 ## 機能
 
 | 機能 | 説明 |
@@ -49,7 +51,9 @@ security find-generic-password -s "anthropic-api-key" -a "claude" -w
 
 ### 3. Workflow のインストール
 
-[Releases](https://github.com/jniimi/alfred-asks-claude/releases) から最新の `Alfred Asks Claude.alfredworkflow` をダウンロードし、ダブルクリックして Alfred にインポートしてください。
+以下のボタンから `.alfredworkflow` をダウンロードし、ダブルクリックして Alfred にインポートしてください。
+
+[![Download for Mac](https://img.shields.io/badge/Download_for_Mac-v0.1.0-blue?style=for-the-badge&logo=apple)](https://github.com/jniimi/alfred-asks-claude/releases/download/v0.1.0/Alfred.Asks.Claude.alfredworkflow)
 
 または、リポジトリからビルドする場合:
 
@@ -80,9 +84,11 @@ Hotkey 設定では以下を確認してください:
 
 ![使い方](usage.png)
 
-## 使用モデル
+## 使用モデル・プライバシー
 
 [Claude Opus](https://docs.anthropic.com/en/docs/about-claude/models) (`claude-opus-4-6`)
+
+あくまでもAnthropicの公式API経由で推論を行うため、入出力されたデータが無断で学習に利用されることはありません。また、この Workflow 自体が独自にデータを収集することもありません。
 
 ## 作者
 
@@ -92,4 +98,4 @@ jniimi
 
 ## ライセンス
 
-MIT
+MIT License
