@@ -6,7 +6,7 @@ set -e
 
 SCRIPT_DIR="${0:A:h}"
 BUILD_DIR="${SCRIPT_DIR}/build"
-WORKFLOW_NAME="Ask Alfred.alfredworkflow"
+WORKFLOW_NAME="Alfred Asks Claude.alfredworkflow"
 
 echo "==> ビルドディレクトリを準備..."
 rm -rf "$BUILD_DIR"
