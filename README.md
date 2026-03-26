@@ -73,6 +73,13 @@ Hotkey 設定では以下を確認してください:
 
 ![Hotkey 設定画面](workflow2.png)
 
+## 使い方
+
+1. 翻訳・要約・解説したいテキストを範囲選択し、設定したショートカットキーを実行
+2. Claude Opus が翻訳・要約・解説の結果を Large Type で表示（同時にクリップボードにもコピーされます）
+
+![使い方](usage.png)
+
 ## 使用モデル
 
 [Claude Opus](https://docs.anthropic.com/en/docs/about-claude/models) (`claude-opus-4-6`)
